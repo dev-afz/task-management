@@ -1,0 +1,90 @@
+.btn-primary{
+    color: #fff !important;
+    background-color: #4B49AC !important;
+    border-color: hsl(265.08deg 43.73% 36.35%);
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0 auto;
+}
+.form .form-wrap{
+    max-width: 480px;
+    margin: 0 auto;
+    min-width: 311px;
+    min-height: 100%;
+    align-self: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+}
+.form .form-container{
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    min-height: 100%;
+}
+.form .form-content{
+        display: block;
+        width: 100%;
+        padding: 25px;
+        background: white;
+        text-align: center;
+        border-radius: 25px;
+        border: 1px solid #e0e6ed;
+        -webkot-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901961), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+        box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901961), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06)
+}
+.form.form-wrapper.form-container.field-wrapper .input{
+    padding: 11px 0px 16px 0;
+    border-bottom: none;
+    position: relative;
+}
+.form .field-wrapper label{
+    font-size: 10px;
+    font-weight: 500;
+    color: #3b3f5c;
+    margin-bottom: 8px;
+}
+.form .field-wrapper svg:not(.feather-eye){
+    position: absolute;
+    left: 30rem;
+    color: #888ea8;
+    fill: rgba(0, 23, 55, 0.08);
+    width: 20px;
+    height: 20px;
+}
+.form .field-wrapper svg.feather-lock{
+    top: 242px;
+}
+.form .field-wrapper svg.feather-user{
+    top: 168px;
+}
+.form .form-wrap form .field-wrapper input{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+    min-width: 50px;
+    max-width: 635px;
+    width: 100%;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    color: #3b3f5c;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px 35px 13px 15px;
+}
+.form form .field-wrapper{
+    width: 100%;
+}
+.form form .field-wrapper button.btn{
+    align-self: center;
+    width: 100%;
+    padding: 11px 14px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
